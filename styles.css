@@ -1,0 +1,33 @@
+/* use grid to create a nav bar that is located on the left side */
+/* wrap the gifs from projects */
+    /* may include an onclick function to play gif */
+
+
+
+body {
+    background-color: #363636;
+    font-family: sans-serif;
+    color: whitesmoke;
+    
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(197, 52, 52);
+    border: 1px solid whitesmoke;
+    margin: 10px;
+}
+
+.meat-potatoes {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container:hover {
+    background-color: grey;
+    color: black;
+
+}
