@@ -5,20 +5,67 @@
 
 
 body {
-    background-color: #363636;
+    background-color: #070505f1;
     font-family: sans-serif;
     color: whitesmoke;
-    
-    
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-columns: minmax(100px, auto);
+    /* background-color: rgb(197, 52, 52);
+    border: 2px solid whitesmoke; */
+}
+
+.nav-container:hover {
+    background-color: grey;
+    color: black;
+}
+
+.nav {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(224, 7, 7, 0.884);
+    border: 2px solid white;
+}
+
+.nav-home {
+
+}
+
+.nav-home:hover {
+
+}
+
+.nav-projects {
+
+}
+
+.nav-projects:hover {
+
+}
+
+.nav-skills {
+
+}
+.nav-skills:hover {
+
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(197, 52, 52);
-    border: 1px solid whitesmoke;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-pic {
+    /* flex: 1; */
+    /* width: ;
+    height: ; */
+}
+.header-text {
+    /* flex: 1; */
 }
 
 .meat-potatoes {
@@ -26,8 +73,5 @@ body {
     justify-content: center;
 }
 
-.header-container:hover {
-    background-color: grey;
-    color: black;
 
-}
+
