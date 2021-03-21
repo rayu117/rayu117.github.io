@@ -1,13 +1,8 @@
-/* use grid to create a nav bar that is located on the left side */
-/* wrap the gifs from projects */
-    /* may include an onclick function to play gif */
-
-
 
 body {
-    background-color: #070505f1;
+    background-color: whitesmoke;
     font-family: sans-serif;
-    color: whitesmoke;
+    color: black;
 }
 
 .nav-container {
@@ -15,16 +10,16 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
     grid-auto-columns: minmax(100px, auto);
-    /* background-color: rgb(197, 52, 52);
-    border: 2px solid whitesmoke; */
 }
 
 
 .nav {
+    font-size: 30px;
+    /* color: rgb(221, 221, 221); */
     border-radius: 5px;
     padding: 10px;
     background-color: rgba(224, 7, 7, 0.884);
-    border: 2px solid white;
+    border: 2px solid grey;
 }
 
 .nav:hover {
@@ -34,37 +29,9 @@ body {
     border: 2px solid red;
 }
 
-.nav-home:hover {
-
-}
-
-.nav-projects {
-
-}
-
-.nav-projects:hover {
-
-}
-
-.nav-skills {
-
-}
-.nav-skills:hover {
-
-}
-
 .header-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.header-pic {
-    /* flex: 1; */
-    /* width: ;
-    height: ; */
-}
-.header-text {
-    /* flex: 1; */
 }
 
 .meat-potatoes {
@@ -75,6 +42,21 @@ body {
 .skillz {
     height: 100px;
     width: 100px;
+    margin: 10px;
+}
+
+.skillz-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.my-skillz {
+    
+}
+
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
 }
 
 
