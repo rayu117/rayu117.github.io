@@ -1,6 +1,6 @@
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(146, 141, 141);
     font-family: sans-serif;
     color: black;
 }
@@ -31,7 +31,8 @@ body {
 
 .header-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 
+    
 }
 
 .meat-potatoes {
@@ -50,12 +51,17 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
-.my-skillz {
-    
+.projekt {
+    width: 400px;   
+    height: 3oopx;
 }
 
 .dark-mode {
     background-color: black;
+    color: whitesmoke;
+}
+
+.contact:any-link {
     color: whitesmoke;
 }
 
