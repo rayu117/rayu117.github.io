@@ -2,7 +2,7 @@ body {
     background-color: #363636;
     /* color: transparent; */
 }
-
+/* Maybe add a max-height? Also write a more specific selector in case you add more images later! */
 img {
     width: 100%;
     height: 100%;
@@ -17,7 +17,7 @@ img {
     /* margin: auto; */
 
 }
-
+/* Is this necessary? */
 .home-text {
     flex: 1;
 }
@@ -52,6 +52,8 @@ h1 span {
 color: crimson;
 font-size: 20px;
 }
+
+/* Cool animations! */
 
 @keyframes text_show {
     50% {
