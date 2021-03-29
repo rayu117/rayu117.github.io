@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
     color: black;
 }
-
+/* Why so many extra columns? That shouldn't be necessary! */
 .nav-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -29,6 +29,10 @@ body {
     border: 2px solid red;
 }
 
+/* 
+    It doesn't seem like you are taking full advantage of grid here.
+    The layout of this section is simple enough that I think you can get by without grid!
+*/
 .header-container {
     display: grid;
     grid-template-columns: 
