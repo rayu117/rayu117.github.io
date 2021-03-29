@@ -1,8 +1,12 @@
 function darkFunction() {
+    // IMO you can just write this in a single line w/o the variable declaration.
     let element = document.body;
     element.classList.toggle("dark-mode")
 }
 
+// Since this function and textAdventureShow do essentially the same thing, they ought to be combined into one function
+// You may need to add parameter(s) to the function to make it work in both cases.
+// Keep your code DRY!
 function snowmanShow() {
     let newInfo = document.createElement("p");
     newInfo.textContent = "The Snowman Game is a guessing game run using node.js. The object of this project was to show mastery in the use of objects.";
